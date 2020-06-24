@@ -12,16 +12,25 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          <Greet></Greet>
-          {/* <Mycomp></Mycomp> */}
-          {/* Edit <code>src/App.js</code> and save to reload. */}
-          <Welcome />
-        </p>
+        {/* <p> */}
+        <Greet name="Bruce" heroName="Batman">
+          Hello i am childran data
+        </Greet>
+        <Greet name="Clark" heroName="Suparman">
+          <button>Action</button>
+        </Greet>
+        <Greet name="Diana" heroName="SuperWomen" />
+        {/* <Mycomp></Mycomp> */}
+        {/* Edit <code>src/App.js</code> and save to reload. */}
+        <Welcome name="Bruce" heroName="Batman">
+          Hola I am also children
+        </Welcome>
+        <Welcome name="Clark" heroName="Suparman" />
+        <Welcome name="Clark" heroName="Suparman" />
+        {/* </p> */}
 
-        <p>
-          <Hello />
-        </p>
+        <Hello />
+
         {/* <a
           className="App-link"
           href="https://reactjs.org"
