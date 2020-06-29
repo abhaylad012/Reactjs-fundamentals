@@ -9,10 +9,12 @@ import React from "react";
 
 const Greet = (props) => {
   console.log(props);
+  const { name, heroName } = props;
   return (
     <div>
       <h1>
-        Hello I am Greet {props.name} haha as {props.heroName}
+        {/* Hello I am Greet {props.name} haha as {props.heroName} */}
+        Hello I am Greet {name} haha as {heroName}
       </h1>
       {props.children}
     </div>

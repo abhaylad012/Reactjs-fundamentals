@@ -13,8 +13,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <Greet name="Clark" heroName="Suparman"></Greet>
 
+        <Welcome name="Clark" heroName="Suparman !!" />
+        {/* <Counter /> */}
         {/* <Message></Message> */}
 
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
