@@ -8,6 +8,12 @@ class Message extends Component {
     };
   }
 
+  changeMessage() {
+    this.setState({
+      message: "Thank you abhay for subscribing !! viola!!",
+    });
+  }
+
   render() {
     return (
       <div>
