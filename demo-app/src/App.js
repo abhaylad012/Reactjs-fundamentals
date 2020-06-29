@@ -6,14 +6,17 @@ import Greet from "./components/Greet";
 // import { Greet } from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
+import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Message></Message>
+
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p> */}
-        <Greet name="Bruce" heroName="Batman">
+        {/* <Greet name="Bruce" heroName="Batman">
           Hello i am childran data
         </Greet>
         <Greet name="Clark" heroName="Suparman">
@@ -22,14 +25,14 @@ function App() {
         <Greet name="Diana" heroName="SuperWomen" />
         {/* <Mycomp></Mycomp> */}
         {/* Edit <code>src/App.js</code> and save to reload. */}
-        <Welcome name="Bruce" heroName="Batman">
+        {/* <Welcome name="Bruce" heroName="Batman">
           Hola I am also children
         </Welcome>
         <Welcome name="Clark" heroName="Suparman" />
-        <Welcome name="Clark" heroName="Suparman" />
+        <Welcome name="Clark" heroName="Suparman" /> */}
         {/* </p> */}
 
-        <Hello />
+        {/* <Hello />  */}
 
         {/* <a
           className="App-link"
