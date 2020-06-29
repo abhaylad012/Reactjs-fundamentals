@@ -8,14 +8,17 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionalClick from "./components/FunctionalClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Greet name="Clark" heroName="Suparman"></Greet>
-
-        <Welcome name="Clark" heroName="Suparman !!" />
+        <FunctionalClick />
+        <ClassClick />
+        {/* <Greet name="Clark" heroName="Suparman"></Greet>
+        <Welcome name="Clark" heroName="Suparman !!" /> */}
         {/* <Counter /> */}
         {/* <Message></Message> */}
 
