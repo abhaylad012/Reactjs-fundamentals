@@ -10,13 +10,16 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionalClick from "./components/FunctionalClick";
 import ClassClick from "./components/ClassClick";
+import EventBinding from "./components/EventBinding";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FunctionalClick />
-        <ClassClick />
+        <EventBinding />
+
+        {/* <FunctionalClick />
+        <ClassClick /> */}
         {/* <Greet name="Clark" heroName="Suparman"></Greet>
         <Welcome name="Clark" heroName="Suparman !!" /> */}
         {/* <Counter /> */}
