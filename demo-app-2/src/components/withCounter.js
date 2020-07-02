@@ -23,6 +23,8 @@ const withComponent = (WrapperComponent) => {
         <WrapperComponent
           count={this.state.count}
           increamentCount={this.increamentCount}
+          //   for passing rest of props
+          {...this.props}
         />
       );
     }
